@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    border: 1px solid black;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+}
+
+.header {
+    background-color: #ff4500;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.sidebar {
+    background-color: #f5f5f5;
+    padding: 1rem;
+}
+
+.main-content,
+.side-content {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.accordion-item,
+.side-content,
+.main-content {
+    margin-top: 5px;
+}
+
+.create-post {
+    width: 50%;
+}
+
+.login {
+    margin-top: 20px;
+}
+
+.view {
+    text-decoration: none;
+    color: #323232;
+}
+
+.post-container {
+    transition: transform 0.2s; /* Add a smooth transition effect */
+}
+
+.post-container:hover {
+    transform: scale(1.05); /* Enlarge the div slightly on hover */
+}
+
+.subreddit {
+    width: 300px;
+}
